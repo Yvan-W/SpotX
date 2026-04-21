@@ -478,7 +478,7 @@ function Get-SpotifyInstallerArchitecture {
 }
 
 $spotifyDownloadBaseUrl = "https://spotx.yvan.eu.org/download"
-$spotifyTemporaryDownloadBaseUrl = "https://spotx.yvan.eu.org/download"
+$spotifyTemporaryDownloadBaseUrl = "https://spotx.yvan.eu.org/temporary-download"
 $systemArchitecture = Get-SystemArchitecture
 
 $match_v = "^(?<version>\d+\.\d+\.\d+\.\d+\.g[0-9a-f]{8})(?:-\d+)?$"
