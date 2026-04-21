@@ -477,7 +477,7 @@ function Get-SpotifyInstallerArchitecture {
     }
 }
 
-$spotifyDownloadBaseUrl = "https://loadspot.amd64fox1.workers.dev/download"
+$spotifyDownloadBaseUrl = "https://spotx.yvan.eu.org/download"
 $spotifyTemporaryDownloadBaseUrl = "https://loadspot.amd64fox1.workers.dev/temporary-download"
 $systemArchitecture = Get-SystemArchitecture
 
