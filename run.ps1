@@ -377,7 +377,7 @@ function Get-Link {
 
     switch ($mirror) {
         $true { return "https://spotx-official.github.io/SpotX" + $endlink }
-        default { return "https://raw.githubusercontent.com/SpotX-Official/SpotX/main" + $endlink }
+        default { return "https://proxy.yvan.eu.org/https://raw.githubusercontent.com/SpotX-Official/SpotX/main" + $endlink }
     }
 }
 
